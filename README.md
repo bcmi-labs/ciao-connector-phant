@@ -22,7 +22,7 @@ Download the zip file of the latest [release](https://github.com/arduino-org/cia
 unzip and move it via `scp` inside you board in the desired location.
 **Be sure to move `phant.ciao.conf.json` file into the ciao directory**, eg:
 ```
-$ scp ~/Downloads/ciao-connector-smtp/phant.ciao.conf.json root@arduino.local:/usr/lib/python2.7/ciao/conf/
+$ scp ~/Downloads/ciao-connector-phant/phant.ciao.conf.json root@arduino.local:/usr/lib/python2.7/ciao/conf/
 $ scp -r ~/Downloads/ciao-connector-phant/phant root@arduino.local:/root/.ciao/
 ```
 
